@@ -75,7 +75,6 @@ Ensure you have the following dependencies installed to run the project:
      ```
 
 Ensure you have the necessary permissions and API credentials for using Google APIs.
-
 For TensorFlow, please follow the [official TensorFlow installation guide](https://www.tensorflow.org/install) to ensure you're installing the version compatible with your system and requirements.
 
 Make sure to install these dependencies in your Python environment to successfully run the project.
