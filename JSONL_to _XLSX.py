@@ -3,7 +3,7 @@ import jsonlines
 import pandas as pd
 
 # Define the path to the dataset folder
-dataset_folder = 'C:/Users/davie/Downloads/amazonCAT1/1.1/data'
+dataset_folder = 'Dataset/1.1/data'
 
 # List all JSONL files in the dataset folder
 jsonl_files = [f for f in os.listdir(dataset_folder) if f.endswith('.jsonl')]
