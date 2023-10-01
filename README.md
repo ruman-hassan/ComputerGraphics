@@ -1,12 +1,11 @@
 # Assessment Project - Python3 and File Processing
 
-This project includes the implementation and documentation of tasks related to setting up a Python3 development environment, working with files, and processing a a massive dataset ( which was provided in the CAT instructions).
+This project includes the implementation and documentation of tasks related to setting up a Python3 development environment, working with files using python, and processing a a massive dataset ( which was provided in the CAT instructions).
 
 ## Task 1: Python3 Development Environment (10 Marks)
 
 1. **Setting up Python3 Development Environment:**
    - Installed [all necessary dependencies](#dependencies) for the Python3 development environment taht are indicated.
-
 
 2. **Python Project Structure:**
    - Each member in the group created a Python project using the PyCharm structure. (The name of the project varied depending on the individuals way of creating the directory.)
@@ -34,10 +33,10 @@ This project includes the implementation and documentation of tasks related to s
    - Utilized E-print application to pretty print the JSON file structure.
 
 4. **File Backup and Upload:**
-   - Uploaded all the generated files to the Google Drive Backup Folder.
+   - Uploaded all the generated files to GithHb for referencing as well as editing.
 
 5. **Version Control:**
-   - Uploaded all the changes to GitHub using Google Cloud API.
+   - Uploaded all the changes to GitHub.
 
 ## How to Use
 
@@ -74,19 +73,46 @@ Ensure you have the following dependencies installed to run the project:
      pip install google-api-python-client
      ```
 
-Ensure you have the necessary permissions and API credentials for using Google APIs.
-For TensorFlow, please follow the [official TensorFlow installation guide](https://www.tensorflow.org/install) to ensure you're installing the version compatible with your system and requirements.
+## Cloning the Repository using SSH
 
-Make sure to install these dependencies in your Python environment to successfully run the project.
+To clone this repository using SSH, follow these steps:
+
+1. **Copy the SSH URL**:
+   - Go to the GitHub repository and copy the SSH URL. You can find the SSH URL by clicking on the "Code" button and selecting the SSH option.
+
+2. **Open Terminal**:
+   - Open your terminal or command prompt on your local machine.
+
+3. **Clone the Repository**:
+   - Navigate to the directory where you want to clone the repository using the `cd` command:
+     ```bash
+     cd /path/to/your/directory
+     ```
+   - Clone the repository using the `git clone` command and paste the copied SSH URL:
+     ```bash
+     git clone git@github.com:pomegranating/ComputerGraphics.git
+     ```
+
+4. **Verify the Cloning**:
+   - After executing the clone command, you should see a message indicating that the repository is being cloned.
+
+5. **Access the Cloned Repository**:
+   - Use `cd` to navigate into the cloned repository's directory:
+     ```bash
+     cd repository
+     ```
+   Replace `repository` with the actual repository name.
+
+Now you have successfully cloned the repository using SSH. Remember to have SSH keys set up on your machine and added to your GitHub account for this method to work. Once installed you can run the codes on your end.
 
 ## File Structure
 
-Still coming up with that structure... Maybe we can just use how the cat_trial looks like...?
+Still coming up with that structure... Maybe we can just use how the cat_trial looks like or not?...?
 
 ## Contributors
 
 The contributors of this repository include the members of group two:
-1. Manasseh Maina
+1. Manasseh Maina Mabuya
 2. Ruman Hassan
 3. Lancelot Githinji
 4. Charles Davies
