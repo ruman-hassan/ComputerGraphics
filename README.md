@@ -1,6 +1,10 @@
 # Assessment Project - Python3 and File Processing
 
-This project includes the implementation and documentation of tasks related to setting up a Python3 development environment, working with files using python, and processing a a massive dataset ( which was provided in the CAT instructions).
+This project includes the implementation and documentation of tasks related to setting up a Python3 development environment, working with files using python, and processing a massive dataset ( which was provided in the CAT instructions).
+
+## File Structure
+
+This repository contains a directory called dataset, which contains the massive dataset that was provided to use as the data source for this CAT. The other files contain the codes that are to be used to execute the activities that have been listed.
 
 ## Task 1: Python3 Development Environment (10 Marks)
 
@@ -99,15 +103,11 @@ To clone this repository using SSH, follow these steps:
 5. **Access the Cloned Repository**:
    - Use `cd` to navigate into the cloned repository's directory:
      ```bash
-     cd repository
+     cd ComputerGraphics
      ```
-   Replace `repository` with the actual repository name.
+
 
 Now you have successfully cloned the repository using SSH. Remember to have SSH keys set up on your machine and added to your GitHub account for this method to work. Once installed you can run the codes on your end.
-
-## File Structure
-
-Still coming up with that structure... Maybe we can just use how the cat_trial looks like or not?...?
 
 ## Contributors
 
