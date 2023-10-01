@@ -117,4 +117,3 @@ The contributors of this repository include the members of group two:
 3. Lancelot Githinji
 4. Charles Davies
 5. Joyline Karanja
-
