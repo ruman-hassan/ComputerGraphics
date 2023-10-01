@@ -4,8 +4,10 @@ import pandas as pd
 
 
 def convert_jsonl_to_xlsx():
-    # Set the paths
-    jsonl_folder = '1.0/data'
+    # Set the path to /data where the jsonl files are located
+    jsonl_folder = 'Dataset/1.1/data'
+
+    # Set the path to /output_xlsx where the xlsx files will be located
     output_folder = 'output_xlsx'
 
     # Create the output folder if it doesn't exist
