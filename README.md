@@ -1,6 +1,6 @@
 # Assessment Project - Python3 and File Processing
 
-This project includes the implementation and documentation of tasks related to setting up a Python3 development environment, working with files using python, and processing a a massive dataset ( which was provided in the CAT instructions).
+This project includes the implementation and documentation of tasks related to setting up a Python3 development environment, working with files using python, and processing a massive dataset ( which was provided in the CAT instructions).
 
 ## File Structure
 
