@@ -12,18 +12,23 @@ This repository contains a directory called dataset, which contains the massive 
    - Installed [all necessary dependencies](#dependencies) for the Python3 development environment taht are indicated.
 
 2. **Python Project Structure:**
-   - Each member in the group created a Python project using the PyCharm structure. (The name of the project varied depending on the individuals way of creating the directory.)
+   - Each member in the group created a Python project using the PyCharm structure(The name of the project varied depending on the individuals way of creating the directory).
+   - The files contained within this repository include:
+   1. deutsch.py : For generating ,German (de), separate jsonl files with test, train and dev respectively
+   2. english.py : For generating ,English (en), separate jsonl files with test, train and dev respectively
+   3. swahili.py : For generating ,Swahili (sw), separate jsonl files with test, train and dev respectively
+   4. JSON_to_XLSX.py : For convertinf the .jsonl file structure to .xlsx in the folder output
+   5. large_json : For generating one large json file showing all the translations from en to xx with id and utt for all the train sets. 
+   6. functions.py : which works hand i hand with main.py to perform conversion of .jsonl to .xlsx
+   7. main.py
 
 3. **Importing the Dataset:**
-   - Imported the MASSIVE Dataset mentioned in the data file. (The massive dataset can be found in the folderas well)
+   - Imported the MASSIVE Dataset mentioned in the data file. (The massive dataset can be found in the folder: Dataset/1.1/data).
 
 4. **Data Processing:**
    - Generated en-xx.xlsx files for all languages in the dataset, considering English as the pivot language.
    - This was done using the file named .py 
    - The group members managed to avoid using recursive algorithms to optimize time complexity while generating the required files..
-
-5. **Flags and bash scripting:**
-   - Utilized flags and bash scripting to facilitate running the solution on generator.sh files.
 
 ## Task 2: Working with Files (10 Marks)
 

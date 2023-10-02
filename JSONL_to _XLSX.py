@@ -24,6 +24,7 @@ for jsonl_file in jsonl_files:
     df = pd.DataFrame(data)
 
     # Create an Excel writer object
+    #This part will vary depending on each individuals device
     excel_file = f'C:/Users/davie/Downloads/amazonCAT1/1.1/data/new/en-{lang_code}.xlsx'
     writer = pd.ExcelWriter(excel_file, engine='openpyxl')
 
