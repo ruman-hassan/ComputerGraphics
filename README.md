@@ -118,7 +118,7 @@ Now you have successfully cloned the repository using SSH. Remember to have SSH 
 ## Contributors
 
 The contributors of this repository include the members of group two:
-1. Manasseh Maina Mabuya
+1. Manasseh Maina 
 2. Ruman Hassan
 3. Lancelot Githinji
 4. Charles Davies
