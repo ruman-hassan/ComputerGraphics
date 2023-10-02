@@ -9,7 +9,7 @@ This repository contains a directory called dataset, which contains the massive 
 ## Task 1: Python3 Development Environment (10 Marks)
 
 1. **Setting up Python3 Development Environment:**
-   - Installed [all necessary dependencies](#dependencies) for the Python3 development environment taht are indicated.
+   - Installed all necessary [dependencies](#dependencies) for the Python3 development environment taht are indicated.
 
 2. **Python Project Structure:**
    - Each member in the group created a Python project using the PyCharm structure(The name of the project varied depending on the individuals way of creating the directory).
