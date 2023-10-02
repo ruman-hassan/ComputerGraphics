@@ -3,7 +3,7 @@ import jsonlines
 import pandas as pd
 
 # Define the path to the dataset folder
-dataset_folder = 'C:/Users/user/PycharmProjects/pythonProject/codescript/1.1/data/'
+dataset_folder = 'Dataset/1.1/data/'
 
 # Process only en-US.jsonl
 jsonl_file = 'en-US.jsonl'
