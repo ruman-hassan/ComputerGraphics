@@ -26,7 +26,7 @@ This repository contains a directory called dataset, which contains the massive 
    - Imported the MASSIVE Dataset mentioned in the data file. (The massive dataset can be found in the folder: Dataset/1.1/data).
 
 4. **Data Processing:**
-   - Generated en-xx.xlsx files for all languages in the dataset, considering English as the pivot language.
+   - Generated en-xx.xlsx files for all languages in the dataset, considering English as the pivot language(The output folder will be made manually or can be created using the code)
    - This was done using the file named .py 
    - The group members managed to avoid using recursive algorithms to optimize time complexity while generating the required files..
 

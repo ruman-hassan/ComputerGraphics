@@ -9,7 +9,7 @@ dataset_folder = 'Dataset/1.1/data'
 jsonl_files = [f for f in os.listdir(dataset_folder) if f.endswith('.jsonl')]
 
 for jsonl_file in jsonl_files:
-    # Extract the language code from the filename (e.g., "af-ZA.jsonl" -> "af-ZA")
+    # Extract the language of code from the filename (e.g., "af-ZA.jsonl" -> "af-ZA")
     lang_code = jsonl_file.split('.')[0]
 
     # Initialize an empty list to store data

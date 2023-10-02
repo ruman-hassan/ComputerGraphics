@@ -8,7 +8,7 @@ dataset_folder = 'Dataset/1.1/data/'
 # Initialize an empty dictionary to store translations
 translations = {}
 
-# List all JSONL files in the dataset folder
+# List all JSONL files in the dataset folder as shown
 jsonl_files = [f for f in os.listdir(dataset_folder) if f.endswith('.jsonl')]
 
 # Iterate through each JSONL file
