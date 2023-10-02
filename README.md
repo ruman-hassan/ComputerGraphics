@@ -14,6 +14,7 @@ This repository contains a directory called dataset, which contains the massive 
 2. **Python Project Structure:**
    - Each member in the group created a Python project using the PyCharm structure(The name of the project varied depending on the individuals way of creating the directory).
    - The files contained within this repository include:
+   
       1. deutsch.py : For generating ,German (de), separate jsonl files with test, train and dev respectively
       2. english.py : For generating ,English (en), separate jsonl files with test, train and dev respectively
       3. swahili.py : For generating ,Swahili (sw), separate jsonl files with test, train and dev respectively
