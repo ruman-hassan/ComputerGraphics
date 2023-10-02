@@ -1,3 +1,6 @@
+# this folder houses all functions that are required
+# to run different modules of the project
+
 # make necessary imports
 import os
 import pandas as pd
