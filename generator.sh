@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the directory containing main.py
-cd /main.py
+cd main.py
 
 # Activate a virtual environment (if applicable)
 # source /path/to/your/virtualenv/bin/activate
