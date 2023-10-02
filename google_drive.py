@@ -7,7 +7,7 @@ from googleapiclient.http import MediaFileUpload
 credentials_file = 'credentials.json'
 
 # Set the path to the folder you want to upload
-folder_path = '/path/to/your/folder'
+folder_path = 'output_xlsx'
 
 # Authenticate with Google Drive using the credentials
 creds = None
