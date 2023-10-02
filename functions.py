@@ -1,15 +1,15 @@
+# this folder houses all functions that are required
+# to run different modules of the project
+
 # make necessary imports
 import os
 import pandas as pd
 
 
-def convert_jsonl_to_xlsx():
-    # Set the path to /data where the jsonl files are located
-    jsonl_folder = 'Dataset/1.1/data'
+# This function takes in the folder location for the .jsonl files
+# and the output folder location as arguments
 
-    # Set the path to /output_xlsx where the xlsx files will be located
-    output_folder = 'output_xlsx'
-
+def convert_jsonl_to_xlsx(jsonl_folder: str, output_folder: str):
     # Create the output folder if it doesn't exist
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
