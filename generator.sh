@@ -1,13 +1,11 @@
 #!/bin/bash
+# shellcheck disable=SC2164
+cd C:/Users/davie/Downloads/amazonCAT1/1.1/JSONL_to _XLSX.py
+# Activate the virtual environment
+source C:/Users/davie/Downloads/amazonCAT1/venv/Scripts/activate
 
-# Navigate to the directory containing main.py
-cd main.py
+# Run the Python script
+python C:/Users/davie/Downloads/amazonCAT1/1.1/JSONL_to _XLSX.py
 
-# Activate a virtual environment (if applicable)
-# source /path/to/your/virtualenv/bin/activate
-
-# Run main.py using Python
-python main.py
-
-# Deactivate the virtual environment (if applicable)
-# deactivate
+# Deactivate the virtual environment
+deactivate
